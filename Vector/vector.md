@@ -13,5 +13,6 @@
 | Operation time               | Super critical, *use of plain arrays*                                                          |
 | Insertions<br>Removals       | Slightly costly in terms of time<br>Internally resizes itself beyond certain predefined limits            |
 | keyword                      | `vector`                                                                                                  |
-| Declaration                  | `vector <T> vectorVariable;`<br>T - Data type of elements<br>vectorVariable - Name assigned to the vector |                                                                 |
+| Declaration                  | `vector <T> vectorVariable;`<br>T - Data type of elements<br>vectorVariable - Name assigned to the vector | 
+| Operations in Vector         | Support various operations to Add, Remove, Access and Modify dynamically                                  |
 </details>
