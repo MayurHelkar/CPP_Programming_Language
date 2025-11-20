@@ -71,4 +71,18 @@
 | Mechanism  | One class is allowed to inherit the features (data members and member functions) of another class                    | 
 | Achieve by | Using the : symbol followed by an access specifier (public, private, or protected). Inheritance is also known as an  |
 | Example    | Dog, Cat, Cow and be Derived Class of Animal Base Class                                                              |
+
+| Important terminologies | Decription |
+| ----------------------- | ---------- |
+| Superclass              | The class whose features are inherited is known as superclass (also known as base or parent class) |
+| Subclass                | The class that inherits the other class is known as subclass (also known as derived or extended or child class)<br>The subclass can add its own fields and methods in addition to the superclass fields and methods |
+| Reusability             | When we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class |
+</details>
+
+<summary>Polymorphism</summary>
+<details>
+|         |                                                                                                                               |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Meaning | Having many forms, and it comes from the Greek words poly (many) and morph (forms), this means one entity can take many forms |
+| Allows  | same method or object to behave differently based on the context, specially on the project's actual runtime class             |
 </details>
