@@ -13,7 +13,7 @@
 | ------------------- | ------------------------------------------------------------------------------------ |
 | Datatype            | User-defined                                                                         |
 | For Objects         | Blueprint/ Prototype                                                                 |
-| keyword             | `class`                                                                              |   
+| keyword             | `class`<br>Definition Syntax : `class className { dataMembers/ function_Members };`  |   
 | Creation of         | Objects                                                                              |
 | Members consists    | Data<br>Functions                                                                    |
 | Represents          | Set of Properties/ Methods                                                           |
@@ -86,3 +86,10 @@
 | Meaning | Having many forms, and it comes from the Greek words poly (many) and morph (forms), this means one entity can take many forms |
 | Allows  | same method or object to behave differently based on the context, specially on the project's actual runtime class             |
 </details>
+
+Types of Polymorphism
+| Function Overloading | Function Overriding |
+| --------------------- | -------------------------------------------- |
+| Compile-time polymorphism  | Run-time polymorphism |
+| Occurs when two or ore functions in the same class share the same name but have different parameters lists (different number or types of parameters) | Occurs when a function in the derived class has the same name, return type, and parameters as a function in the base class |
+| | Achieve using virtual functions, so that the derived class provides its own implementation of the method |
