@@ -61,3 +61,14 @@
 | Variables or Data<br>Class | Hidden from any other class and can be accessed only through any member function of the class in which they are declared<br>Data in a class is hidden from other classes, which is similar to what data-hiding does |
 | Achieved by  | Declaring all the variables in a class as private and writing public methods in the class to set and get the values of the variables |
 </details>
+
+<summary>Inheritance</summary>
+<details>
+
+|            |                                                                                                                      |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| Known as   | "is-a" relationship                                                                                                  |
+| Mechanism  | One class is allowed to inherit the features (data members and member functions) of another class                    | 
+| Achieve by | Using the : symbol followed by an access specifier (public, private, or protected). Inheritance is also known as an  |
+| Example    | Dog, Cat, Cow and be Derived Class of Animal Base Class                                                              |
+</details>
